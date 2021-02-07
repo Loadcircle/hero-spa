@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en Hero Screen Debe de mostrar el comoponente redirect si no hay argumentos en el URL 1`] = `""`;
+
+exports[`Pruebas en Hero Screen debe de mostrar un hero si el parametro existe 1`] = `
+<div
+  className="row mt-5  animate__animated animate__fadeIn"
+>
+  <div
+    className="col-4"
+  >
+    <img
+      alt="Batman"
+      className="img-thumbnail"
+      src="../assets/heroes/dc-batman.jpg"
+    />
+  </div>
+  <div
+    className="col-8"
+  >
+    <h3>
+      Batman
+    </h3>
+    <ul
+      className="list-group list-group-flush"
+    >
+      <li
+        className="list-group-item"
+      >
+        <b>
+          Alter ego 
+        </b>
+         
+        Bruce Wayne
+      </li>
+      <li
+        className="list-group-item"
+      >
+        <b>
+          Publisher 
+        </b>
+         
+        DC Comics
+      </li>
+      <li
+        className="list-group-item"
+      >
+        <b>
+          First appearance 
+        </b>
+         
+        Detective Comics #27
+      </li>
+    </ul>
+    <h5>
+       Characters 
+    </h5>
+    <p>
+      Bruce Wayne
+    </p>
+    <button
+      className="btn btn-outline-primary"
+      onClick={[Function]}
+    >
+      Return
+    </button>
+  </div>
+</div>
+`;
